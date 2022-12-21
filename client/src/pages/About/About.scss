@@ -1,0 +1,31 @@
+.aboutPage {
+    height: calc(100vh - 80px);
+    background: url("https://images.unsplash.com/photo-1603798125914-7b5d27789248?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") no-repeat;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+
+    .main {
+        position: absolute;
+        right: 70px;
+        bottom: 0;
+        display: flex;
+        width: 25%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 70px 60px;
+        background-color: #fff;
+        gap: 40px;
+
+
+        h1 {
+            color: gray;
+        }
+
+        p {
+            font-size: 16px;
+            letter-spacing: 2px;
+        }
+    }
+}
